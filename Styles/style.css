@@ -90,6 +90,20 @@ header
 	line-height: 41px;
 	color: #8B8B8A;
 }
+.gray_text
+{
+	font-family: arial;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 41px;
+	color: #8B8B8A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	line-height: 55px;
+}
 .container	
 {
 	width: 800px;
@@ -171,8 +185,12 @@ header
 }
 .grid_child	
 {
-	background-color: gray;
+	background-color: none;
 	transition: 0.2s;
+}
+.bordered
+{
+	border: 2px solid #8B8B8A;
 }
 
 .picture_alco
@@ -322,8 +340,52 @@ header
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.a1
+{
+	background: url("../Pics/a1.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a2
+{
+	background: url("../Pics/a2.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a3
+{
+	background: url("../Pics/a3.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a4
+{
+	background: url("../Pics/a4.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a5
+{
+	background: url("../Pics/a5.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a6
+{
+	background: url("../Pics/a6.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .center_text
 {
+	padding: 10px;
+	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -332,4 +394,112 @@ header
 	font-family: arial;
 	font-weight: bold;
 	height: 100%;
+	text-align: center;
+}
+.group_head
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 34px;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	height: 20%;
+}
+.group_list
+{
+	color: #8B8B8A;
+	font-size: 34px;
+	font-family: arial;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.bottom_block
+{
+	background: url("../Pics/bottom.png");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1080px;
+}
+.form
+{
+	border: 2px solid #8B8B8A;
+	box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+	width: 100%;
+	height: 850px;
+	padding: 25px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+
+.form input
+{
+	width: 100%;
+	height: 90px;
+	border: 2px solid #8B8B8A;
+	box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+	color: white;
+	background: none;
+	border-radius: 0;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	padding: 0 20px;
+}
+
+.form select
+{
+	width: 100%;
+	height: 90px;
+	border: 2px solid #8B8B8A;
+	box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+	color: #8B8B8A;
+	background: none;
+	border-radius: 0;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	padding: 0 20px;
+}
+.form textarea
+{
+	width: 100%;
+	height: auto;
+	border: 2px solid #8B8B8A;
+	box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+	color: #8B8B8A;
+	background: none;
+	border-radius: 0;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	padding: 20px;
+}
+.form button
+{
+	width: 100%;
+	height: 90px;
+	border: 2px solid #8B8B8A;
+	box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+	color: #8B8B8A;
+	background: none;
+	border-radius: 0;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: 0.2s;
+}
+.form button:hover
+{
+	box-shadow: 0px 0px 5px 5px rgba(255, 255,255, 0.25);
 }

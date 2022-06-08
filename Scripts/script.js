@@ -137,3 +137,7 @@
         return this.each(function() { new Plugin( this, options ); });
     };
 })( jQuery, window, document );    
+
+function send() {
+    alert("Ваша заявка будет рассмотрена в течении суток!");
+}
