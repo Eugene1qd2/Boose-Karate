@@ -141,3 +141,6 @@
 function send() {
     alert("Ваша заявка будет рассмотрена в течении суток!");
 }
+function changeOrder(type) {
+   document.getElementById("g1").options[type].selected=true;
+}
